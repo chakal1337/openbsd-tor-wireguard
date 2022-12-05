@@ -1,14 +1,14 @@
-# mkdir /etc/wireguard
+`# mkdir /etc/wireguard`
 
-# pkg_add wireguard-tools
+`# pkg_add wireguard-tools`
 
-# pkg_add nano
+`# pkg_add nano`
 
-# wg genkey
+`# wg genkey`
 
-# wg pubkey <<END
+`# wg pubkey <<END
 KEY HERE
-END
+END`
  
 # nano /etc/wireguard/server.conf
 ```
