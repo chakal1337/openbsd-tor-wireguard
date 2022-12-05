@@ -4,9 +4,9 @@
 
 `# pkg_add nano`
 
-`# wg genkey`> private_key
+`# wg genkey > private_key`
 
-`# wg pubkey < private_key > public_key
+`# wg pubkey < private_key > public_key`
  
 `# nano /etc/wireguard/server.conf`
 ```
